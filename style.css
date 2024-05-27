@@ -1,0 +1,155 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 18;
+  color: #1F2937;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.header {
+  background-color: #1F2937;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 18%;
+
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 900;
+  color: #F9FAF8;
+  display: flex;
+  align-items: center;
+}
+
+.links {
+  display: flex;
+  gap: 32px;
+}
+
+ul {
+  list-style: none;
+}
+
+a, .hero-body {
+  text-decoration: none;
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  background-color: #1F2937;
+  padding: 50px 18% 60px;
+  gap: 100px;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  justify-content: center;
+}
+
+.hero-header {
+  font-size: 48px;
+  font-weight: bold;
+  color: #F9FAF8;
+}
+
+button {
+  font-weight: bold;
+  background-color: #3882F6;
+  border-radius: 5px; 
+  color: #F9FAF8;
+  padding: 8px 30px;
+  font-size: 18px;
+}
+
+.header-btn {
+  border-style: none;
+  padding: 10px 32px;
+}
+
+.cards-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 50px 60px;
+  gap: 32px;
+}
+
+.card-header {
+  font-size: 36px;
+  font-weight: bold;
+  color: #1F2937;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  padding: 0 18%;
+  gap: 48px;
+}
+
+.card img {
+  width: 180px;
+  border-radius: 2px;
+  box-shadow: 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+  color: #1F2937;
+}
+
+.quote {
+  padding: 100px 28%;
+  background-color: #E5E7EB;
+  color:#1F2937;
+  text-align: right;
+  font-size: 24px;
+}
+
+.quote p{
+  font-size: 36px;
+  font-style: italic;
+  text-align: left;
+}
+
+.sign-up-header {
+  font-size: 24px;
+}
+
+.sign-up-card-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #3882F6;
+  margin: 50px 20%;
+  padding: 32px;
+  border-radius: 5px;
+  color: #F9FAF8;
+}
+
+.footer {
+  background-color: #1F2937;
+  color: #E5E7EB;
+  text-align: center;
+  padding: 20px;
+  font-size: 18px;
+}
+
+a:hover, button:hover {
+  cursor: pointer;
+}
+
+.footer a:hover {
+  color: #3882F6;
+}
