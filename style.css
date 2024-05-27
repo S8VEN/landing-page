@@ -8,11 +8,10 @@ body {
 }
 
 .header {
-  background-color: #1F2937;
+  background-color: #cf4401;
   display: flex;
   justify-content: space-between;
-  padding: 18px 18%;
-
+  padding: 10px 18%;
 }
 
 .logo {
@@ -25,6 +24,7 @@ body {
 
 .links {
   display: flex;
+  align-items: center;
   gap: 32px;
 }
 
@@ -46,7 +46,7 @@ a, .hero-body {
 .hero {
   display: flex;
   justify-content: space-between;
-  background-color: #1F2937;
+  background-color: #232323;
   padding: 50px 18% 60px;
   gap: 100px;
 }
@@ -66,7 +66,7 @@ a, .hero-body {
 
 button {
   font-weight: bold;
-  background-color: #3882F6;
+  background-color: #cf4401;
   border-radius: 5px; 
   color: #F9FAF8;
   border-color: #F9FAF8;
@@ -95,20 +95,25 @@ button {
 
 .cards {
   display: flex;
-  flex-direction: row;
+  justify-content: space-evenly;
   padding: 0 18%;
-  gap: 48px;
 }
 
 .card img {
-  width: 180px;
+  width: 280px;
   border-radius: 2px;
   box-shadow: 5px 5px rgba(0, 0, 0, 0.1);
 }
 
 .card {
   color: #1F2937;
+  padding: 0 32px;
 }
+
+.card p {
+  width: 280px;
+}
+
 
 .quote {
   padding: 100px 28%;
@@ -132,7 +137,7 @@ button {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  background-color: #3882F6;
+  background-color: #cf4401;
   margin: 50px 20%;
   padding: 32px;
   border-radius: 5px;
@@ -140,7 +145,7 @@ button {
 }
 
 .footer {
-  background-color: #1F2937;
+  background-color: #232323;
   color: #E5E7EB;
   text-align: center;
   padding: 20px;
@@ -152,5 +157,5 @@ a:hover, button:hover {
 }
 
 .footer a:hover {
-  color: #3882F6;
+  color: #cf4401;
 }
